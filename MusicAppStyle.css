@@ -14,7 +14,7 @@ html{
 header{
     width: 100vw; 
     height: 100vh; 
-    background-image: url("musicimage.jpg"); 
+    background-image: url("images/musicimage.jpg"); 
     background-position:center ;
     background-repeat: no-repeat; 
     background-size: cover;
