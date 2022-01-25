@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="MusicAppStyle.css">
+</head>
+<body>  
+    <header> 
+        <div class="menu">
+            <a href="" class="a1">Gaana<span class="content"></span></a>
+            <a href="" class="a2">Songs</a>
+        </div>  
+    <div class="main_div">     
+        <div class="music_container">
+            <h2 id="title">Faded-Song</h2> 
+            <h3 id="artist">Alan Walkar</h3> 
+            <div class="img_container">
+                <img src="images/faded.jpg" alt=""> 
+            </div> 
+            <audio src="music/faded.mp3"></audio>  
+            <!--progress bar--> 
+            <div class="progressbar_container" id="progress_container">
+                <div class="progress_duration_meter">
+                    <div id="current_time">0:00</div> 
+                    <div id="duration">0:00</div>
+                </div> 
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+            <!--controls--> 
+            <div class="music_controls">
+                <i class="fas fa-step-backward" id="prev" title="Previous"></i> 
+                <i class="fas fa-play main_button" id="play" title="Play"></i> 
+                <i class="fas fa-step-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>  
+</header>
+    <script type="text/javascript" src="MusicAppjavascript.js"></script>
+</body>
+</html>
